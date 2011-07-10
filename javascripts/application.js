@@ -1,5 +1,5 @@
 function twitter_bar() {
-    return $$('#sidebar .twitter').first();
+    return $$('.twitter').first();
 }
 
 Event.observe(window, "load", function() {
